@@ -1,5 +1,12 @@
 import React from 'react'
 
+// Import images at the top
+import img1 from '../asserts/img1.png';
+import img2 from '../asserts/img2.png';
+import img3 from '../asserts/img3.png';
+import img4 from '../asserts/img4.png';
+import img5 from '../asserts/img5.png';
+
 function Project() {
   return (
     <div className='flex flex-col justify-center items-center text-neutral-300'>
@@ -10,7 +17,7 @@ function Project() {
         {/* Project 1: MathAI */}
         <div className="flex items-center gap-5">
           <img 
-            src='src/asserts/img2.png' 
+            src={img2} 
             className='h-[60px] w-[90px] rounded-md border border-gray-100'
             alt='MathAI'
           />
@@ -26,8 +33,8 @@ function Project() {
         {/* Project 2: Eclipse */}
         <div className="flex items-center gap-5">
           <img 
-            src='src/asserts/img5.png' 
-            className='h-[60px] w-[120px] rounded-md border border-gray-300'
+            src={img5} 
+            className='h-[60px] w-[90px] rounded-md border border-gray-300'
             alt='Eclipse'
           />
           <div>
@@ -42,8 +49,8 @@ function Project() {
         {/* Project 3: Weaponry Detection System */}
         <div className="flex items-center gap-5">
           <img 
-            src='src/asserts/img1.png' 
-            className='h-[60px] w-[100px] rounded-md border border-gray-300'
+            src={img1} 
+            className='h-[60px] w-[90px] rounded-md border border-gray-300'
             alt='Weaponry Detection System'
           />
           <div>
@@ -58,7 +65,7 @@ function Project() {
         {/* Project 4: Climate Change Visualizer */}
         <div className="flex items-center gap-5">
           <img 
-            src='src/asserts/img4.png' 
+            src={img4} 
             className='h-[60px] w-[90px] rounded-md border border-gray-300'
             alt='Climate Change Visualizer'
           />
@@ -74,7 +81,7 @@ function Project() {
         {/* Project 5: Sketch to Solution AI */}
         <div className="flex items-center gap-5">
           <img 
-            src='src/asserts/img3.png' 
+            src={img3} 
             className='h-[60px] w-auto rounded-md border border-gray-300'
             alt='Sketch to Solution AI'
           />
@@ -93,4 +100,5 @@ function Project() {
   )
 }
 
-export default Project
+export default Project;
+

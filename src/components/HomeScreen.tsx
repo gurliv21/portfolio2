@@ -253,7 +253,7 @@ function HomeScreen() {
       const scale = scaleRef.current
       const LARGE_PIXEL_SIZE = 8 * scale
       const SMALL_PIXEL_SIZE = 4 * scale
-      const BALL_SPEED = 0.75 * scale
+      const BALL_SPEED = 2 * scale
 
       pixelsRef.current = []
       const words = ["GURLIV BAJWA", "FRONTEND DEVELOPER"]

@@ -1,11 +1,11 @@
 import React from 'react'
-
+import icon from '../asserts/vecteezy_pixel-art-characters-illustration_49049827.jpg'
 function About() {
   return (
     <div className='flex flex-col justify-center items-center'>
       <div className='flex gap-[20px] mb-[50px] '>
       <div className=''>
-         <img src='src/asserts/vecteezy_pixel-art-characters-illustration_49049827.jpg' className='h-[90px] w-auto rounded-2xl'/>
+         <img src={icon} className='h-[90px] w-auto rounded-2xl'/>
       </div>
      <div className='mt-6'>
      <h1 className='text-3xl text-neutral-300'>Gurliv Kaur Bajwa</h1>
